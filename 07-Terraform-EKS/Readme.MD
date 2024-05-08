@@ -2,8 +2,7 @@
 
 1. Fire This command once all resources created to access EKS cluster from locally
 
-aws eks --region $(terraform output -raw region) update-kubeconfig  --name $(terraform output -raw cluster_name)
-aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
+aws eks --region $(terraform output -raw region) update-kubeconfig     --name $(terraform output -raw cluster_name)
 
 # This command will genrate config file in your local dir .kube/config
 
