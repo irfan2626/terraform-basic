@@ -1,4 +1,4 @@
-Toooo install terraform go to this site:- https://developer.hashicorp.com/terraform/downloads
+To install terraform go to this site:- https://developer.hashicorp.com/terraform/downloads
 
 download binary unzip that or extarct that binary copy the terraform into c drive 
 
